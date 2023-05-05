@@ -26,9 +26,7 @@ function LandingPage() {
         process large amounts of social media data quickly and accurately.
       </p>
       <div className="button-container">
-        <a href="/about" className="btn">
-          Learn More
-        </a>
+        <Link to="/about">Learn More</Link>
       </div>
     </div>
   );
