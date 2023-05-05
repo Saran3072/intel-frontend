@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./navbar.css";
+import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 
 function Navbar() {
@@ -21,16 +22,16 @@ function Navbar() {
       </div>
       <ul className={`nav-links ${showLinks ? "show-links" : ""}`}>
         <li>
-          <a href="/">Home</a>
+          <Link to="/">Home</Link>
         </li>
         <li>
-          <a href="/about">About</a>
+        <Link to="/about">About</Link>
         </li>
         <li>
-          <a href="/prediction">Prediction</a>
+        <Link to="/prediction">Prediction</Link>
         </li>
         <li>
-          <a href="/contact">Contact</a>
+        <Link to="/contact">Contact</Link>
         </li>
       </ul>
     </nav>
