@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 150vh;
+  background-color: #f8f8f8;
+}
+
+img {
+  margin-bottom: .5rem;
+  padding-top: rem;
+}
+
+.description {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  text-align: center;
+  margin-bottom: .25rem;
+  max-width: 80%;
+}
+
+.highlight {
+  color: #0071c5;
+  font-weight: bold;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #0071c5;
+  color: #fff;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #005499;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
