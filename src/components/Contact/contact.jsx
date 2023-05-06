@@ -18,7 +18,7 @@ function Contact() {
           <p>Email: 20211a66615@bvrit.ac.in</p>
         </div>
         <div className="team-member">
-          <img src="assets/sevanth.jpg" alt="Team member 2" />
+          <img src="assets/sevanth.JPG" alt="Team member 2" />
           <p>Name: Sevanth Gajula</p>
           <p>Role: Machine Learning Engineer/ IoT Developer</p>
           <p>Email: 20211a66650@bvrit.ac.in</p>
