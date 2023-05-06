@@ -14,31 +14,31 @@ function Contact() {
         <div className="team-member">
           <img src="assets/saran.jpg" alt="Team member 1" />
           <p>Name: Dammavalam Sai Saran</p>
-          <p>Role: Machine Learning Engineer/Full Stack Developer</p>
+          <p>Role: Machine Learning Engineer/ Full Stack Developer</p>
           <p>Email: 20211a66615@bvrit.ac.in</p>
         </div>
         <div className="team-member">
-          <img src="assets/saran.jpg" alt="Team member 2" />
+          <img src="assets/sevanth.jpg" alt="Team member 2" />
           <p>Name: Sevanth Gajula</p>
-          <p>Role: Machine Learning Engineer/IoT Developer</p>
+          <p>Role: Machine Learning Engineer/ IoT Developer</p>
           <p>Email: 20211a66650@bvrit.ac.in</p>
         </div>
         <div className="team-member">
-          <img src="assets/saran.jpg" alt="Team member 3" />
+          <img src="assets/aditya.jpg" alt="Team member 3" />
           <p>Name: Aditya Reddy</p>
-          <p>Role: Machine Learning Engineer/UI/UX Designer</p>
+          <p>Role: Machine Learning Engineer/ UI/UX Designer</p>
           <p>Email: 20211a66655@bvrit.ac.in</p>
         </div>
         <div className="team-member">
-          <img src="assets/saran.jpg" alt="Team member 4" />
+          <img src="assets/sravya.jpg" alt="Team member 4" />
           <p>Name: Sravya Nekkanti</p>
-          <p>Role:  Machine Learning Engineer/PythonDeveloper</p>
+          <p>Role:  Machine Learning Engineer/ PythonDeveloper</p>
           <p>Email: 20211a66638@bvrit.ac.in</p>
         </div>
         <div className="team-member">
-          <img src="assets/saran.jpg" alt="Team member 5" />
+          <img src="assets/sravanthi.jpg" alt="Team member 5" />
           <p>Name: Aramandla Sravanthi</p>
-          <p>Role:  Machine Learning Engineer/Frontend Developer</p>
+          <p>Role:  Machine Learning Engineer/ Frontend Developer</p>
           <p>Email: 20211a66605@bvrit.ac.in</p>
         </div>
       </div>

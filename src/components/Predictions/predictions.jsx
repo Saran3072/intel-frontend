@@ -5,15 +5,21 @@ import "./predictions.css";
 function Prediction() {
   const [id, setId] = useState("");
   const [result, setResult] = useState(null);
+  const [loading, setLoading] = useState(false);
 
   const handleFormSubmit = (event) => {
     event.preventDefault();
+    setLoading(true);
     axios
-      .get(`/api/predict?id=${id}`)
+      .get(`https://sentiback.onrender.com/${id}`)
       .then((response) => {
         setResult(response.data);
+        setLoading(false);
       })
-      .catch((error) => console.log(error));
+      .catch((error) => {
+        console.log(error);
+        setLoading(false);
+      });
   };
 
   return (
@@ -32,15 +38,19 @@ function Prediction() {
           Predict
         </button>
       </form>
-      {result && (
-        <div className="prediction-result">
-          <p>
-            <strong>Sentiment Title:</strong> {result.SentimentTitle}
-          </p>
-          <p>
-            <strong>Sentiment Headline:</strong> {result.SentimentHeadline}
-          </p>
-        </div>
+      {loading ? (
+        <div>Loading...</div>
+      ) : (
+        result && (
+          <div className="ans">
+            <p>
+              <strong>Sentiment Title:</strong> {result.SentimentTitle}
+            </p>
+            <p>
+              <strong>Sentiment Headline:</strong> {result.SentimentHeadline}
+            </p>
+          </div>
+        )
       )}
     </div>
   );
